@@ -6,7 +6,7 @@ body {
 
 @font-face {
     font-family: "PayPal Sans Big";
-    src: url("/paypal-sans.ttf");
+    src: url("paypal-sans.ttf") format('truetype');
 }
 
 .senttext {
