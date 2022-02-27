@@ -5,6 +5,18 @@ body {
 }
 
 @font-face {
+    font-family: "PayPal Sans Light";
+    src: url('webfont.eot');
+    /* IE9 Compat Modes */
+    src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('https://www.paypalobjects.com/digitalassets/c/paypal-ui/fonts/PayPalSansBig-Light.woff2') format('woff2'), /* Super Modern Browsers */
+    url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
+    url('webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('webfont.svg#svgFontName') format('svg');
+    /* Legacy iOS */
+}
+
+@font-face {
     font-family: "PayPal Sans Big";
     src: url('webfont.eot');
     /* IE9 Compat Modes */
@@ -17,9 +29,9 @@ body {
 }
 
 .senttext {
-    font-family: 'PayPal Sans Big';
+    font-family: 'PayPal Sans Light';
     color: #444;
-    font-size: 18px;
+    font-size: 16px;
     outline: none;
     outline-color: white;
     outline-style: none;
@@ -29,10 +41,11 @@ body {
     margin: 0px;
     margin-bottom: 15px;
     letter-spacing: 0.05em;
+    font-weight: normal;
 }
 
 img {
-    max-width: 200px;
+    max-width: 170px;
     height: auto;
     margin-bottom: 15px;
     filter: brightness(95%);
@@ -48,7 +61,7 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 270px;
+    height: 220px;
     margin: 0;
 }
 
