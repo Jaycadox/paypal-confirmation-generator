@@ -1,0 +1,68 @@
+body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.senttext {
+    font-family: 'PayPal Sans Big';
+    color: #444;
+    font-size: 18px;
+    outline: none;
+    outline-color: white;
+    outline-style: none;
+    outline-width: 0;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 15px;
+    letter-spacing: 0.05em;
+}
+
+img {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 15px;
+    filter: brightness(95%);
+}
+
+.dummy {
+    height: 10px;
+}
+
+.conf {
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 270px;
+    margin: 0;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f7fb;
+    padding-top: 35px;
+}
+
+button {
+    margin-bottom: 12px;
+    width: 350px;
+    background: #0070ba;
+    border: none;
+    padding: 15px 0px;
+    font-family: 'PayPal Sans Big';
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 30px;
+}
+
+.sum {
+    background: none;
+    color: #0070ba;
+}
