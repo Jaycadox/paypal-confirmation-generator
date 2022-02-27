@@ -4,6 +4,11 @@ body {
     padding: 0;
 }
 
+@font-face {
+    font-family: "PayPal Sans Big";
+    src: url("/paypal-sans.ttf");
+}
+
 .senttext {
     font-family: 'PayPal Sans Big';
     color: #444;
